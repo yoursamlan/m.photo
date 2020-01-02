@@ -38,21 +38,21 @@ body {
   float: left;
 }
 #slide1 {
-  background-image: url("cd2.png");
+  background-image: url("cd1.jpg");
   opacity:1;
 }
 
 #slide2 {
-  background-image: url("cd01.jpg");
+  background-image: url("cd2.jpg");
   opacity:1;
 }
 
 #slide3 {
-  background-image: url("cd3.png");
+  background-image: url("cd3.jpg");
 }
 
 #slide4 {
-  background-image: url("cd4.png");
+  background-image: url("cd4.jpg");
 }
 
 .hdiv{
