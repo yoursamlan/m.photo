@@ -27,6 +27,8 @@ body {
   font-size: 200%;
   font-family: 'comfortaa','Lato',sans-serif;
   float: left;
+  background-color:#000;
+  background-radius:12px;
 }
 .slide h3 {
   font-size: 70%;
