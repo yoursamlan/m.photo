@@ -34,12 +34,12 @@ body {
   float: left;
 }
 #slide1 {
-  background-image: url("cd1.png");
+  background-image: url("cd2.png");
   opacity:1;
 }
 
 #slide2 {
-  background-image: url("cd2.png");
+  background-image: url("cd1.jpg");
   opacity:1;
 }
 
