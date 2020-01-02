@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700");
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  font-family: Lora, serif;
+  overflow-x: hidden;
+}
+
+.slide {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.2em;
+  color: white;
+  background-size: cover;
+  background-position: center;
+}
+.slide h1 {
+  font-size: 200%;
+  font-family: 'comfortaa','Lato',sans-serif;
+  float: left;
+}
+.slide h3 {
+  font-size: 70%;
+  font-family: 'comfortaa','Lato',sans-serif;
+  float: left;
+}
+#slide1 {
+  background-image: url("cd1.png");
+  opacity:1;
+}
+
+#slide2 {
+  background-image: url("cd2.png");
+  opacity:1;
+}
+
+#slide3 {
+  background-image: url("cd3.png");
+}
+
+#slide4 {
+  background-image: url("cd4.png");
+}
+
+.hdiv{
+    margin-top:450px;
+    text-align: left;
+    margin-left: 5%;
+    display:block;
+    align-content: flex-start;
+    align-self: flex-start;
+    position:absolute;
+    left:0;
+    
+}
+.sdiv{
+    margin-top:70%;
+    text-align: left;
+    margin-left: 5%;
+    display:flex;
+    align-content: flex-start;
+    align-self: flex-start;
+    position:absolute;
+    left:0;
+    font-family: comfortaa;
+    letter-spacing: 10px;
+    
+}
+.footer {
+  position:fixed;
+  height:50px;
+  display:flex;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  background-color:black;
+  text-align: left;
+  padding-left:15%;
+}
+
+button {
+    transition: all .5s ease;
+    color: #fff;
+    border: 1px solid white;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color : transparent;
+    padding: 10px;
+    outline: none;
+    border-radius: 50;
+    margin:10px;
+}
+button:hover {
+    color: #001F3F;
+    background-color: #fff;
+}
+
