@@ -29,6 +29,8 @@ body {
   float: left;
   background-color:#000;
   background-radius:12px;
+  padding:20px;
+  border:1px solid white;
 }
 .slide h3 {
   font-size: 70%;
